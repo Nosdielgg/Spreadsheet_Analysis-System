@@ -1,2 +1,40 @@
-# Spreadsheet_Analysis-System
-Spreadsheet_Analysis-System
+# Spreadsheet Analysis System
+
+A complete desktop application for Excel/CSV data processing and analysis built with Python and Tkinter.
+
+## Features
+
+### 📁 File Management
+- Open Excel (.xlsx, .xls) and CSV files
+- Export processed data to Excel or CSV
+- Real-time file information display
+
+### 🔧 Data Processing
+- Automatic data cleaning and standardization
+- Null value handling (6 strategies: mean, median, mode, zero, forward, backward)
+- Duplicate removal
+- Automatic data type conversion
+
+### 🔍 Data Analysis
+- Advanced filters (7 operators: >, <, >=, <=, ==, !=, contains)
+- Data grouping with 5 aggregation functions (mean, sum, count, min, max)
+- Comprehensive metrics calculation
+- Automatic insights generation
+
+### 📊 Visualization
+- Interactive data table with scroll
+- Charts: Histogram, Boxplot, Scatter plot
+- Grouping results with automatic chart generation
+
+### 📜 History
+- Complete action log with timestamps
+- Track all data processing operations
+
+## Installation
+
+### Prerequisites
+- Python 3.7 or higher
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
